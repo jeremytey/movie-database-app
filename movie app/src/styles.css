@@ -120,7 +120,6 @@ h2 {
 }
 
 .movie-card:hover {
-  transform: translateY(-8px);
   box-shadow: 0 8px 20px rgba(229, 9, 20, 0.3);
   border-color: #e50914;
 }
