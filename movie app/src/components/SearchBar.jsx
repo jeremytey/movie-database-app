@@ -7,7 +7,7 @@ function SearchBar({ onSearch }) {
     function handleSubmit(e){
       e.preventDefault();
 
-      if (!query.trim()){ {
+      if (!query.trim()){ 
         return;
       } 
       onSearch(query.trim());
@@ -29,7 +29,6 @@ function SearchBar({ onSearch }) {
     <button onClick={handleSubmit}>Search</button>
   </div>
   ) 
-}
 }
 
 export default SearchBar;
