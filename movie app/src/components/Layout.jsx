@@ -9,7 +9,6 @@ export default function Layout() {
         <Link to="/watchlist">Watchlist</Link>
       </nav>
       <main>
-        
         <Outlet />
       </main>
     </>
