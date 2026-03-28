@@ -1,41 +1,22 @@
-Movie Database App
-Overview
+## Setup & Installation
 
-The Movie Database App is a modern React application that helps users discover movies, explore detailed information, and manage a personal watchlist. The project focuses on real-world React development practices such as client-side routing, URL-based state management, API integration, and clean component design.
+### 1. Clone the repository
+git clone https://github.com/yourusername/movie-database-app.git
+cd movie-database-app
 
-This app was built as an advanced React learning project to solidify core concepts before moving into full-stack development.
+### 2. Install dependencies
+npm install
 
+### 3. Configure environment variables
+Create a `.env` file in the root directory:
+VITE_TMDB_API_KEY=your_tmdb_api_key_here
 
-Core Features:
+Get your free API key at: https://www.themoviedb.org/settings/api
 
--Browse popular and trending movies
+### 4. Run the development server
+npm run dev
 
--Search movies by title
+App runs at http://localhost:5173
 
--Paginated movie results
-
--View detailed movie pages
-
--URL-driven search and pagination state
-
--Responsive UI with reusable components
-
--Dynamic routing using URL parameters
-
--Add and remove movies from a watchlist
-
--Watchlist persisted using browser storage
-
--Protected route logic (UI-level, no real auth)
-
-Project Goals:
-
--Build confidence with real-world React patterns
-
--Learn React Router deeply through practical usage
-
--Treat the URL as a source of truth for application state
-
--Prepare for backend and full-stack development
-
--Follow modern React best practices without unnecessary abstractions
+### 5. Build for production
+npm run build
